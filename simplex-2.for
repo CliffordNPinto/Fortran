@@ -1,4 +1,5 @@
-    	integer, parameter :: m1=5000,n1 = 7000
+	program simplex
+	integer, parameter :: m1=5000,n1 = 7000
    	real, dimension(0:m1,0:n1) :: a,aa,aaa
 	real, dimension(m1,1) :: b,bb,bbb,bi	
 	real, dimension(1,n1) :: c,az,aL
